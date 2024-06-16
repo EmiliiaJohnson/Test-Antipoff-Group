@@ -1,0 +1,52 @@
+.auth-form {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  border-radius: 16px;
+  width: 500px;
+  margin: 40px;
+}
+.form-title {
+  font-size: 20px;
+}
+.form-group {
+  margin: 18px 0;
+}
+.form-label {
+  display: flex;
+  flex-direction: column;
+}
+.form-input {
+  height: 48px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  padding: 8px 12px;
+  margin-top: 8px;
+  &:focus {
+    outline: 1px solid #512689;
+  }
+}
+.form-input:autofill {
+  box-shadow: 0 0 0 30px #f8f8f8 inset;
+}
+.form-button {
+  color: #fff;
+  background-color: #512689;
+  cursor: pointer;
+}
+.form__change-action {
+  margin: 10px;
+  text-align: center;
+}
+.change-action__link {
+  margin: 0 5px;
+  color: #512689;
+}
+
+.about-us {
+  background-color: #512689;
+  color: #fff;
+  height: 265px;
+  padding: 40px;
+}
