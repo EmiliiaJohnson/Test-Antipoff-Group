@@ -12,6 +12,9 @@ import ".././App.css";
 
 const MainPage: React.FC = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    !localStorage.getItem("token") && navigate("/signIn");
+  });
 
   const handleSignOut = async () => {
     await signOut(auth);
