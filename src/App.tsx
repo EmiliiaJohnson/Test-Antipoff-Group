@@ -8,9 +8,10 @@ import PrivateRoute from "./components/PrivateRoute";
 import { StoreProvider } from "./store";
 
 const App: React.FC = () => {
+  const basename = "/Test-Antipoff-Group";
   return (
     <StoreProvider>
-      <Router>
+      <Router basename={basename}>
         <main>
           <Routes>
             <Route path="/createUser" element={<CreateUser />} />
